@@ -1,0 +1,18 @@
+.projects-list{
+  //list-style-type:none;
+  white-space:nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  justify-content: space-between;
+  a{
+    display: inline-block;
+    text-align: center;
+    margin-right: 4vw;
+    align-content: center;
+    height: 50vh;
+    width: 20vw;
+    border: solid white 2px;
+    border-radius: 5px;
+  }
+  height: 60vh;
+}

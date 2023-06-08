@@ -1,0 +1,82 @@
+.skills-list{
+    //display: grid;
+    align-self: center;
+    align-content: center;
+    li{
+        display: inline-block;
+        scale: 200%;
+        margin-right: 4vw;
+        align-content: center;
+        div{
+            opacity: 0;
+            transition: 1s;
+            .hovered{
+                opacity: 1;
+                transition: 1s;
+            }
+        }
+    }
+
+    .hide{
+        opacity: 1;
+    }
+
+
+}
+
+#java{
+
+}
+
+.skill-detail{
+    height: 30vh;
+    width: 80vw;
+    //border: 1px white solid;
+    //border-radius: 5px;
+    div {
+        opacity: 1;
+        transition: 2s;
+
+        //&:hover {
+        //    opacity: 1;
+        //    transition: 2s;
+        //}
+    }
+}
+
+.skills-box{
+    align-self: center;
+    align-content: center;
+    width: 80vw;
+    //border: solid white 2px;
+    //border-radius: 5px;
+    .skills-list{
+        align-self: center;
+        text-align: center;
+        //border-bottom: solid white;
+        padding: 2vh;
+        li{
+            margin-left: 5vw;
+            margin-right: 5vw;
+            scale: 2;
+            transition: 1s;
+            &:hover{
+                scale: 1.9;
+                color: #1095c1;
+                transition: 1s;
+
+                //border-radius: 40px;
+            }
+        }
+    }
+    .skill-detail{
+        text-color: white;
+    }
+}
+
+.leftFade{
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+

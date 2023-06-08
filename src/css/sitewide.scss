@@ -1,0 +1,57 @@
+.main{
+    background: #2f2f2f;
+    border: 0;
+    margin: 0;
+    margin-top: 10vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+    .fade-in-section{
+        display: block;
+        height: 70vh;
+        margin-top: 5vh;
+        width: 100vw;
+        color: white;
+        display:grid;
+        place-items: center;
+        align-items: center;
+        //visibility: hidden;
+        //transform: translateX(-100px);
+        transition: all 1s ease-in-out;
+        h1{
+            color: white;
+        }
+
+
+    }
+
+
+}
+
+.anchor{
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+.About{
+    top: 10vh;
+}
+
+
+
+.is-visible{
+    visibility: visible;
+    //background: red;
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+.not-visible{
+    //visibility: hidden;
+    transform: translateX(-30vw);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
